@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "MathQuest Admin",
+    "slug": "mathquest-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#1A237E"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#1A237E" },
+      "package": "com.mathquest.admin"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      POSTGRES_USER: mathquest
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mathquest_db
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./database/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql
+    ports:
+      - "5432:5432"
+
+  api:
+    build: ./backend
+    restart: always
+    depends_on:
+      - db
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://mathquest:password@db:5432/mathquest_db
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+
+  analytics:
+    build: ./node-analytics
+    restart: always
+    depends_on:
+      - db
+      - api
+    environment:
+      PORT: 3001
+      DATABASE_URL: postgresql://mathquest:password@db:5432/mathquest_db
+      JWT_SECRET: mathquest-secret-key-change-in-production
+      NODE_ENV: production
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./node-analytics:/app
+      - /app/node_modules
+
+volumes:
+  pg_data:
