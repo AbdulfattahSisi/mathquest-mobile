@@ -211,7 +211,7 @@ POST   /export/csv             # Export données
 
 ```bash
 # Cloner le repo
-git clone https://github.com/VOTRE_USERNAME/mathquest-mobile.git
+git clone https://github.com/AbdulfattahSisi/mathquest-mobile.git
 cd mathquest-mobile/flutter_app
 
 # Installer les dépendances
@@ -278,8 +278,7 @@ npm start
 - **Version** : 1.0.0
 - **Taille** : 23.1 MB
 - **Minimum SDK** : Android 6.0 (API 23)
-- **Lien** : [📦 Télécharger APK sur Google Drive](VOTRE_LIEN_GOOGLE_DRIVE)
-  - *Remplacez `VOTRE_LIEN_GOOGLE_DRIVE` par votre lien après upload*
+- **Lien** : [📦 Télécharger APK sur Google Drive](https://drive.google.com/file/d/1HWsTKwffogluDbyO0Z5vC4ybRvOggMz-/view?usp=sharing)
 
 ### 🌐 Démo en ligne
 - **Build Web** : Disponible après `flutter build web --release`
@@ -400,8 +399,8 @@ pytest backend/tests/
 ## 👨‍💻 Auteur
 
 **Iliass** - Élève Ingénieur 4ème année EMINES  
-📧 Email: votre.email@emines.um6p.ma  
-💼 LinkedIn: [Votre profil LinkedIn](https://linkedin.com/in/votre-profil)  
+📧 Email: Iliass.AitAli@emines.um6p.ma
+💼 GitHub: [AbdulfattahSisi](https://github.com/AbdulfattahSisi)
 🎓 Projet de stage OCP Khouribga - 2026
 
 ---

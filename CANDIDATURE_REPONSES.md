@@ -121,18 +121,18 @@ Application Flutter permettant aux utilisateurs d'apprendre les mathématiques, 
 
 **Liens à fournir (après avoir suivi DEPLOYMENT_GUIDE.md) :**
 
-1. **GitHub Repository** : `https://github.com/VOTRE_USERNAME/mathquest-mobile`
+1. **GitHub Repository** : `https://github.com/AbdulfattahSisi/mathquest-mobile`
    - Code source complet (Flutter app, Backend FastAPI, Node analytics, React Native admin)
    - Documentation technique (README.md)
    - Architecture du projet
 
-2. **APK Android** : `https://drive.google.com/file/d/VOTRE_ID_DRIVE/view?usp=sharing`
+2. **APK Android** : `https://drive.google.com/file/d/1HWsTKwffogluDbyO0Z5vC4ybRvOggMz-/view?usp=sharing`
    - Version : 1.0.0
    - Taille : 23.1 MB
    - Min SDK : Android 6.0 (API 23)
    - Téléchargement direct
 
-3. **GitHub Release** (optionnel) : `https://github.com/VOTRE_USERNAME/mathquest-mobile/releases/tag/v1.0.0`
+3. **GitHub Release** (optionnel) : `https://github.com/AbdulfattahSisi/mathquest-mobile/releases/tag/v1.0.0`
    - APK disponible en téléchargement
    - Notes de version
 
@@ -161,8 +161,8 @@ Application Flutter permettant aux utilisateurs d'apprendre les mathématiques, 
    - Obtenir les liens partageables
 
 2. **Remplacez les placeholders** :
-   - `VOTRE_USERNAME` → votre nom d'utilisateur GitHub
-   - `VOTRE_ID_DRIVE` → l'ID de votre fichier Google Drive
+   - GitHub : `https://github.com/AbdulfattahSisi/mathquest-mobile`
+   - APK Drive : `https://drive.google.com/file/d/1HWsTKwffogluDbyO0Z5vC4ybRvOggMz-/view?usp=sharing`
    - `VOTRE_VIDEO_ID` → l'ID de votre vidéo (si vous en créez une)
 
 ### Étape 2 : Copier-coller les réponses
